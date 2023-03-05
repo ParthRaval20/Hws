@@ -37,7 +37,11 @@ nav{
 }
 .logo-bar img{
     float: left;
-    margin-top: 18px;
+    margin-top: 15px;
+}
+.logo{
+    width: 150px;
+    height: 70px;
 }
 ul li{
     display: inline-block;
@@ -119,16 +123,16 @@ ul li a{
 .img1{
     position: absolute;
     top: 8px;
-    left: 15px;
+    left: 11%;
     margin-top: 27%;
-    padding: 0 10%;
+    /* padding: 0 10%; */
 }
 #img1{
     position: absolute;
-    top: 17px;
-    left: 9px;
+    top: 15px;
+    left: 10%;
     margin-top: 34%;
-    padding: 0 9.5%;
+    /* padding: 0 9.5%; */
     font-size: 21px;
     font-family: Montserrat,sans-serif;
 }
@@ -144,16 +148,16 @@ ul li a{
 .img2{
     position: absolute;
     top: 8px;
-    left: -11px;
+    left: 29.6%;
     margin-top: 27%;
-    padding: 0 30%;
+    /* padding: 0 30%; */
 }
 #img2{
     position: absolute;
-    top: 28px;
-    left: -15px;
-    margin-top: 33.5%;
-    padding: 0 27%;
+    top: 15px;
+    left: 26%;
+    margin-top: 34%;
+    /* padding: 0 27%; */
     font-family: Montserrat,sans-serif ;
     font-size: 21px;
 }
@@ -169,16 +173,16 @@ ul li a{
 .img3{
     position: absolute;
     top: 7px;
-    left: -11px;
+    left: 48.5%;
     margin-top: 27%;
-    padding: 0 49%;
+    /* padding: 0 49%; */
 }
 #img3{
     position: absolute;
-    top: 26px;
-    left: 24px;
-    margin-top: 33.7%;
-    padding: 0 44%;
+    top: 15px;
+    left: 45.5%;
+    margin-top: 34%;
+    /* padding: 0 44%; */
     font-family: Montserrat,sans-serif;
     font-size: 21px;
     display: ruby;
@@ -212,55 +216,46 @@ ul li a{
     padding: 12px 24px;
     margin-left: 3%;
 }
-.loginform{
-    position: absolute;
-    top: 10px;
-    right: 90px;
-    margin-top: 15%;
-    background-color: #0023ad;
-    padding: 24px 25px;
-}
-hr{
-    color: #fff;
-}
-.ns{
-    margin-top: 15%;
+.mainform{
     display: flex;
-    flex-wrap: wrap;
-    padding: 0px 5px;
-    align-items: flex-start;
+    position: absolute;
+    background-color: #ffffff69;
+    top: 10px;
+    right: 1%;
+    margin-top: 15%;
+    padding: 2% 1%;
 }
-.loginform p{
+.loginform{
+    position: relative;
+    background-color: #0023ad;
+    top: 10px;
+    right: 0%;
+    margin-top: -5%;
+    padding: 3% 2%;
+}
+.title p{
     display: flex;
     justify-content: center;
     font-size: 24px;
     color: #fff;
     font-family: inter, sans-serif;
 }
-.ns label{
+hr{
     color: #fff;
 }
-/* .fname{
-    position: absolute;
-    top: 40px;
-    right: 280px;
-    margin-top: 13%;
-    color: #57647E;
+.ns{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: -8px 0%;
 }
-.sname{
-    position: absolute;
-    top: 44px;
-    right: 84px;
-    margin-top: 13%;
-    color: #57647E;
-} */
 .name{
     position: absolute;
-    top: 45px;
-    right: 275px;
-    margin-top: 13%;
+    top: 0%;
+    right: 86%;
+    margin-top: -7%;
     color: #fff;
-    padding: 0px 18px 0px 0px;
     font-family: inter, sans-serif;
     font-weight: normal;
     font-size: 12px;
@@ -269,53 +264,45 @@ hr{
 .fname{
     position: absolute;
     color: #57647e;
-    top: 50px;
-    right: 275px;
-    margin-top: 29.5%;
+    top: 20%;
+    right: 80%;
+    margin-top: 7%;
     font-family: inter, sans-serif;
     font-size: 10px;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    user-select: none;
 }
 .sname{
-    position: absolute;
+    position: relative;
     color: #57647e;
-    top: 50px;
-    right: 120px;
-    margin-top: 29.5%;
+    top: 8%;
+    right: -51%;
+    margin-top: 1.3%;
     font-family: inter, sans-serif;
     font-size: 10px;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    user-select: none;
 }
 .ns input{
-    margin-left: 10px;
+    margin-left: 2%;
     border-radius: 5px;
     height: 30px;
 }
 .myemail{
-    margin-top: 20%;
+    margin-top: 12%;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0px 5px;
-    align-items: flex-start;
 }
 .e{
     position: absolute;
     top: 50px;
-    right: 275px;
-    margin-top: 36%;
+    right: 84%;
+    margin-top: 30%;
     color: #fff;
-    padding: 0px 18px 0px 0px;
     font-family: inter, sans-serif;
-    font-weight: normal;
     font-size: 12px;
+    font-weight: normal;
     font-weight: 500;
 }
 .myemail input{
-    margin-left: 10px;
+    margin-left: 2%;
     border-radius: 5px;
     height: 30px;
     width: 100%;
@@ -325,61 +312,52 @@ hr{
     color: #57647e;
     font-family: inter, sans-serif;
     font-size: 10px;
+    /* top: 0%; */
     margin-top: 10%;
-    right: 210px;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-     user-select: none; /* Standard syntax */
+    right: 61%;
+    /* padding-right: 1%;  */
 }
 .tel{
-    margin-top: 18%;
+    margin-top: 15%;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0px 5px;
-    align-items: flex-start;
 }
 .p{
     position: absolute;
-    top: 40px;
-    right: 225px;
-    margin-top: 63.5%;
+    top: 63px;
+    right: 70%;
+    margin-top: 49%;
     color: #fff;
-    padding: 0px 15px 0px 0px;
     font-family: inter, sans-serif;
-    font-weight: normal;
     font-size: 12px;
+    font-weight: normal;
     font-weight: 500;
 }
 .tel input{
-    margin-left: 10px;
+    margin-left: 2%;
     border-radius: 5px;
     height: 30px;
     width: 100%;
 }
-.teln{
+ .teln{
     position: absolute;
     color: #57647e;
     font-family: inter, sans-serif;
     font-size: 10px;
+    /* top: 0%; */
     margin-top: 10%;
-    right: 157px;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    right: 47%;
+    /* padding-right: 1%;   */
 }
 .query{
     margin-top: 15%;
-    /* display:flex; */
-    padding: 0px 20px;
-    /* align-items: flex-start; */
+    padding:0% 3%;
 }
 .q{
     position: absolute;
-    top: 25px;
-    right: 269px;
-    margin-top: 90.5%;
+    /* top: 0%; */
+    right: 81%;
+    margin-top: -5%;
     color: #fff;
-    padding: 0px 15px 0px 0px;
     font-family: inter, sans-serif;
     font-weight: normal;
     font-size: 12px;
@@ -389,13 +367,17 @@ hr{
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 280px;
+    width: 102%;
 }
 textarea{
     resize: vertical;
 }
 .book-btn{
     margin-top: 8%;
+    margin-bottom: 4%;
+}
+.book-btn li{
+    list-style: none;
 }
 .book-btn a{
     color: #fff;
@@ -403,13 +385,14 @@ textarea{
     background-color: #39d446;
     border-radius: 5px 5px;
     text-decoration: none;
-    font-family: inter, sans-serif ;
+    font-family: inter, sans-serif;
     font-size: 12px;
-    margin-left: 15px;
+    margin-left: 6%;
 }
 .book-btn:hover{
-    filter:brightness(0.9)
+    filter: brightness(0.9);
 }
+/* connection with patients */
 .container{
     box-sizing: border-box;
     background-color: #0023ad;
@@ -461,4 +444,72 @@ textarea{
     color: #fff;
     font: 16px Monregu;
     left: px;
+}
+.ourpleft{
+    position: absolute;
+    margin-top: 4%;
+    padding: 0 7%;
+    font-size: 28px;
+    color: #0023ad;
+    line-height: 1.3em;
+    font-family: Montserrat,sans-serif;
+}
+.ourp-left{
+    position: absolute;
+    margin-top: 10%;
+    padding: 0 7%;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.3em;
+    font-family: Monregu,sans-serif;
+}
+.lh{
+    padding-top: 7%
+}
+.ourpimg{
+   position: relative;
+   float: right;
+   margin-top: 6%;
+   margin-right: 5%;
+   box-sizing: border-box;
+}
+.ourpimg img{
+    width: 474.94px;
+    height: 316.77px;
+    border-radius: 7px;
+    box-shadow: -21px 23px 0px 6px #0224ae;
+}
+.bgimg{
+    background-image: url(/images/Mask-Group-7.png);
+    margin-top: 35%;
+    background-repeat: no-repeat;
+}
+.center{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 25px;
+    font-family: Montserrat,sans-serif;
+    color: #fff;
+}
+.centerlh{
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+    font-size: 32px;
+    font-family: Montserrat,sans-serif;
+}
+.click-here{
+    text-align: center;
+    font-size: 18px;
+    font-family: Monregu,sans-serif;
+    font-weight: 400;
+    line-height: 3;
+}
+.click-here a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #39d446;
+    padding: 12px 24px;
+    border-radius: 8px;
 }
