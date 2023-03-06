@@ -2,6 +2,10 @@
     font-family: avenir;
     src: url(../fonts/AvenirNextLTPro-Regular.otf);
 }
+@font-face {
+    font-family: avenirb;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
 @font-face{
     font-family: Montserrat;
     src: url(../fonts/static/Montserrat-Bold.ttf) ;
@@ -47,8 +51,7 @@ ul li{
     display: inline-block;
     padding: 0 39px;
     font-size: 17px;
-    font-family: avenir;
-    font-weight: bold;
+    font-family: "avenirb";
 }
 ul li a{
     text-decoration: none;
@@ -95,7 +98,7 @@ ul li a{
     padding: 0 3%;
     font-size: 34px;
     line-height: 1.3em;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 ::selection{
     background-color: #000;
@@ -110,7 +113,7 @@ ul li a{
     line-height: 1.2em;
     color: #000;
     font-size: 20px;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
     opacity: 0.3;
 }
 .row{
@@ -134,7 +137,7 @@ ul li a{
     margin-top: 34%;
     /* padding: 0 9.5%; */
     font-size: 21px;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 .v1{
   border-left: 1px solid #0023ad;
@@ -158,7 +161,7 @@ ul li a{
     left: 26%;
     margin-top: 34%;
     /* padding: 0 27%; */
-    font-family: Montserrat,sans-serif ;
+    font-family: "Montserrat",sans-serif ;
     font-size: 21px;
 }
 .v2{
@@ -183,7 +186,7 @@ ul li a{
     left: 45.5%;
     margin-top: 34%;
     /* padding: 0 44%; */
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 21px;
     display: ruby;
 }
@@ -208,7 +211,7 @@ ul li a{
     line-height: 1.2em;
     color: white;
     font-size: 15px;
-    font-family: avenir,sans-serif;
+    font-family: "avenir",sans-serif;
     font-weight: bold;
     text-decoration: none;
     background-color: #0023ad;
@@ -238,7 +241,7 @@ ul li a{
     justify-content: center;
     font-size: 24px;
     color: #fff;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
 }
 hr{
     color: #fff;
@@ -256,7 +259,7 @@ hr{
     right: 86%;
     margin-top: -7%;
     color: #fff;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     font-size: 12px;
     font-weight: 500;
@@ -267,7 +270,7 @@ hr{
     top: 20%;
     right: 80%;
     margin-top: 7%;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 10px;
     user-select: none;
 }
@@ -277,7 +280,7 @@ hr{
     top: 8%;
     right: -51%;
     margin-top: 1.3%;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 10px;
     user-select: none;
 }
@@ -296,7 +299,7 @@ hr{
     right: 84%;
     margin-top: 30%;
     color: #fff;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-weight: 500;
@@ -310,7 +313,7 @@ hr{
 .exa{
     position: absolute;
     color: #57647e;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 10px;
     /* top: 0%; */
     margin-top: 10%;
@@ -327,7 +330,7 @@ hr{
     right: 70%;
     margin-top: 49%;
     color: #fff;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-weight: 500;
@@ -341,7 +344,7 @@ hr{
  .teln{
     position: absolute;
     color: #57647e;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 10px;
     /* top: 0%; */
     margin-top: 10%;
@@ -358,7 +361,7 @@ hr{
     right: 81%;
     margin-top: -5%;
     color: #fff;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     font-size: 12px;
     font-weight: 500;
@@ -385,7 +388,7 @@ textarea{
     background-color: #39d446;
     border-radius: 5px 5px;
     text-decoration: none;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 12px;
     margin-left: 6%;
 }
@@ -414,7 +417,7 @@ textarea{
     margin-top: 2.9%;
     margin-bottom: 1%;
     color: #fff;
-    font: 16px Monregu;
+    font: 16px "Monregu";
     left: px;
 }
 .contimg2{
@@ -428,7 +431,7 @@ textarea{
     margin-top: 2.9%;
     margin-bottom: 1%;
     color: #fff;
-    font: 16px Monregu;
+    font: 16px "Monregu";
     left: px;
 }
 .contimg3{
@@ -442,7 +445,7 @@ textarea{
     margin-top: 2.9%;
     margin-bottom: 1%;
     color: #fff;
-    font: 16px Monregu;
+    font: 16px "Monregu";
     left: px;
 }
 .ourpleft{
@@ -452,7 +455,7 @@ textarea{
     font-size: 28px;
     color: #0023ad;
     line-height: 1.3em;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 .ourp-left{
     position: absolute;
@@ -462,7 +465,7 @@ textarea{
     font-weight: normal;
     color: #000;
     line-height: 1.3em;
-    font-family: Monregu,sans-serif;
+    font-family: "Monregu",sans-serif;
 }
 .lh{
     padding-top: 7%
@@ -483,13 +486,14 @@ textarea{
 .bgimg{
     background-image: url(/images/Mask-Group-7.png);
     margin-top: 35%;
+    padding-bottom: 6%;
     background-repeat: no-repeat;
 }
 .center{
     text-align: center;
     padding-top: 8%;
     font-size: 25px;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
     color: #fff;
 }
 .centerlh{
@@ -497,12 +501,12 @@ textarea{
     line-height: 2;
     color: #fff;
     font-size: 32px;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 .click-here{
     text-align: center;
     font-size: 18px;
-    font-family: Monregu,sans-serif;
+    font-family: "Monregu",sans-serif;
     font-weight: 400;
     line-height: 3;
 }
@@ -512,4 +516,100 @@ textarea{
     background-color: #39d446;
     padding: 12px 24px;
     border-radius: 8px;
+}
+.typ{
+    font-size: 36px;
+    font-family:  "Montserrat",sans-serif;
+    padding: 4% 5%;
+    text-align: center;
+    color: #0023ad;
+}
+.typcontainer{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0% 5%;
+}
+.typcon{
+    padding: 5% 5%;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    box-shadow: 11px 15px 8px -8px #dcdee5;
+    border-radius: 12px;
+}
+.typimg1{
+    width: 48px;
+    height: 49.5px;
+    padding: 0% 0%;
+}
+.typimg{
+    padding: 0% 12%;
+    margin-top: -8%;
+    color: #0023ad;
+    font: 16px "Montserrat",sans-serif;
+}
+.typcontent{
+    font: 16px "Monregu",sans-serif;
+    margin: 7% -1%;
+    margin-top: 0%;
+    padding-top: 10%;
+
+}
+.typcon2{
+    padding: 5% 10%;
+    padding-right: 30px;
+    padding-left: 4%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    box-shadow: 11px 15px 8px -8px #dcdee5;
+    border-radius: 12px;
+}
+.typimg2{
+    padding: 0% 12%;
+    margin-top: -10%;
+    color: #0023ad;
+    font: 16px "Montserrat",sans-serif;
+}
+.typcontainer2{
+    box-sizing: border-box;
+    display: flex;
+    margin: 5% 5%;
+}
+.typcon4{
+    padding-top: 2%;
+    padding-right: 70px;
+    padding-left: 4%;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    box-shadow: 11px 15px 8px -8px #dcdee5;
+    border-radius: 12px;
+}
+.hws{
+    position: absolute;
+    margin-top: 7%;
+    padding: 0 7%;
+    font-size: 28px;
+    color: #6580f0;
+    line-height: 1.3em;
+    font-family: "Montserrat",sans-serif;
+}
+.hws-left{
+    position: absolute;
+    margin-top: 15%;
+    padding: 0 7%;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.3em;
+    font-family: "Monregu",sans-serif;
+}
+.lh a{
+    text-decoration: none;
+    color: #10069f;
+}
+.lh a:hover{
+    color: #39d446;
 }
