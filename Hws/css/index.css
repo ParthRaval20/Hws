@@ -613,3 +613,125 @@ textarea{
 .lh a:hover{
     color: #39d446;
 }
+.conv{
+    margin-top: 45%;
+    text-align: center;
+    font-size: 36px;
+    color: #0224ae;
+    font-family: "Montserrat",sans-serif;
+    line-height: 1em;
+}
+.conve{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Monregu",sans-serif;
+    line-height: 1em;
+    margin-top: 2%;
+}
+.flip-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 0 7%;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    padding: 0 7%;
+}
+
+.flip-card-front {
+    border-radius: 12px;
+    background-color: #0224ae;
+    color: white;
+    z-index: 1;
+    transform: rotateY(0deg); 
+    transition: transform 0.6s;
+  }
+  .flip-card-front img{
+    background-color: #fff;
+    margin-top: 20%;
+    margin-left: 40%;
+    transform: translateZ(50px);
+  }
+  .front-text{
+    font-family: "Montserrat",sans-serif;
+    margin-top: 20%;
+    padding: 0 0%;
+    font-size: 18px;
+    text-align: center;
+    transform: translateZ(50px);
+  }
+  .flip-card-back {
+    border-radius: 12px;
+    background-color: #0224ae;
+    color: white;
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+  }
+  .back-text{
+    font-family: "Monregu",sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 2%;
+    margin-top: 25%;
+    text-align: center;
+    transform: translateZ(50px);
+  }
+  .back-text-2{
+    font-family: "Monregu",sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 2%;
+    margin-top: 30%;
+    text-align: center;
+    transform: translateZ(50px);
+  }
+  .back-text-3{
+    font-family: "Monregu",sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 2%;
+    margin-top: 30%;
+    text-align: center;
+    transform: translateZ(50px);
+  }
+  .back-text-4{
+    font-family: "Monregu",sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 2%;
+    margin-top: 30%;
+    text-align: center;
+    transform: translateZ(50px);
+  }
+  
+  
